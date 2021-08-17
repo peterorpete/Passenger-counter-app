@@ -2,11 +2,10 @@ let countEl = document.getElementById("count-el");
 let count = 0;
 
 function increment() {
-  count = count + 1;
+  // Change this to use the plus equal technique you've learned
+  count += 1;
   countEl.innerText = count;
 }
-
-// 1. Create a function, save(), which logs out the count when it's called
 
 function save() {
   console.log(count);
